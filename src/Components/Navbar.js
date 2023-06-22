@@ -42,7 +42,7 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
         position: "static",
         background: "none",
         boxshadow: "none",
-        width: "100%"
+        width: "100vw"
       }}
     >
       <Toolbar
@@ -77,10 +77,6 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
               <LightModeOutlined sx={{ fontSize: "25px" }} />
             )}
           </IconButton>
-          <IconButton>
-            <SettingsOutlined sx={{ fontSize: "25px" }} />
-          </IconButton>
-
           <FlexBox>
             <Button
               onClick={handleClick}

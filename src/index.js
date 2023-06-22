@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-//import store from './state/store';
 import { Provider } from 'react-redux'
-
 import { configureStore } from "@reduxjs/toolkit";
 import globalSlice from './state/index.js'
 import { setupListeners } from '@reduxjs/toolkit/query';

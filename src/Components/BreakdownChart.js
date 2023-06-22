@@ -132,7 +132,7 @@ const BreakdownChart = ({isDashboard= false}) => {
             }
         ]}
     />
-    <Box
+    {/* <Box
         position="absolute"
         top="40%"
         left="50%"
@@ -150,7 +150,7 @@ const BreakdownChart = ({isDashboard= false}) => {
         </Typography>
 
 
-    </Box>
+    </Box> */}
 
     </Box>
   )
