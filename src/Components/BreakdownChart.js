@@ -1,6 +1,6 @@
 import React from 'react'
 import {ResponsivePie} from '@nivo/pie'
-import {Box, Typography, useTheme} from '@mui/material'
+import {Box, useTheme} from '@mui/material'
 import { useGetOverviewQuery } from '../state/api'
 
 const BreakdownChart = ({isDashboard= false}) => {
@@ -132,25 +132,6 @@ const BreakdownChart = ({isDashboard= false}) => {
             }
         ]}
     />
-    {/* <Box
-        position="absolute"
-        top="40%"
-        left="50%"
-        right="50%"
-        pointerEvents="none"
-        color={theme.palette.secondary[400]}
-        textAlign="center"
-        sx={{
-            transform: isDashboard ? 'translate(75%, 170%)': 'translate(50%,100%)' 
-        }}
-       
-    >
-        <Typography variant="h6">
-            {!isDashboard && "Total:"} ${data.yearlyTotalSoldUnits}
-        </Typography>
-
-
-    </Box> */}
 
     </Box>
   )
