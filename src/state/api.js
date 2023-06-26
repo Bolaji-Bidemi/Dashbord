@@ -47,7 +47,7 @@ export const api = createApi({
             providesTags: ['User']
         }),
         getUserDashboard: build.query({
-            query: (id) => `general/dashboard`,
+            query: () => `general/dashboard`,
             providesTags: ["Dashboard"]
         })
 
